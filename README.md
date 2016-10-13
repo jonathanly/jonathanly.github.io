@@ -10,7 +10,7 @@ My primary focus was to create a fun yet minimalistic portfolio design. The port
 Due to time constraints, I have decided to go with a bootstrap template. If time had permitted, I would've liked to make a website from scratch to really drill in HTML & CSS concepts. However, this decision had its own set of hurdles to jump through.
 
 ## One-Pager Elements
-# About Me (Hi There!)
+### About Me (Hi There!)
 
 Very short informal introduction about myself and my current life goals. Will be endeavouring to add more information about myself in the future
 
@@ -39,3 +39,15 @@ Main inspiration came from this site by [Matt Farley](http://mattfarley.ca/)
 
 ## Building
 
+As mentioned earlier, time constraints led to the decision to start off with a template from [startbootstrap.com](https://startbootstrap.com/). I soon learnt that a template wasn't as easy as I imagined it to be. More on that later.
+
+# Tools used
+- HTML
+- CSS
+- FontAwesome
+- DevIcons
+- Bootstrap Framework
+- Photoshop
+
+# The small touches
+- My ugly personal brand logo (version 0.1)
