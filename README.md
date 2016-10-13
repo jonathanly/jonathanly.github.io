@@ -1,6 +1,6 @@
 # jonathanly.github.io
 ## Project 1 - Portfolio Site
-Proudly hosted at jonathanly.github.io (yay first live webpage!)
+Live and proudly hosted at [jonathanly.github.io](jonathanly.github.io)
 
 # Design Documentation
 ## Aim
@@ -51,3 +51,14 @@ As mentioned earlier, time constraints led to the decision to start off with a t
 
 # The small touches
 - My ugly personal brand logo (version 0.1)
+- Countdown timer javascript plugin
+- Mobile responsiveness (except for countdown timer, still working on it)
+- Top nav bar removal in viewports
+- Hover effects on social media links and desktop navbar 
+- Poor attempt at quoting Neil Armstrong 5am in the morning.
+
+# Todo/Future work
+- Clean up unneccesary code
+- Polish countdown timer responsiveness
+- Complete projects section
+- Dabble with parralax scrolling code (it's so in at the moment!)
