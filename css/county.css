@@ -1,0 +1,94 @@
+.county
+{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.county span.first
+{
+    padding-left: 12px;
+    border-radius: 4px 0px 0px 4px;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+}
+.county span.last
+{
+    border-radius: 0px 4px 4px 0px;
+    -webkit-border-radius: 0px 4px 4px 0px;
+    -moz-border-radius: 0px 4px 4px 0px;
+}
+.county > span
+{
+    display: inline-block;
+    height: 70px;
+    font-family: 'Open Sans', Arial;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 72px;
+    position: relative;
+}
+.county-days-wrapper, .county-hours-wrapper, .county-minutes-wrapper, .county-seconds-wrapper
+{
+    overflow: hidden !important;
+    position: relative !important;
+    height: 72px !important;
+    width: 175px !important;
+    text-align: center;
+    display: inline-block !important;
+
+}
+.county > span > span
+{
+    display: block;
+}
+.county-label-days, .county-label-hours, .county-label-minutes, .county-label-seconds
+{
+    font-size: 20px !important;
+    line-height: 18px !important;
+    height: 25px !important;
+    text-align: center !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 12px;
+    background-color: transparent !important;
+}
+@media (max-width: 767px) {
+  .county > span {
+    font-size: 40px;
+  }
+
+  .county-days-wrapper, .county-hours-wrapper, .county-minutes-wrapper, .county-seconds-wrapper
+  {
+    width: 100px;
+  }
+}
+
+.clear
+{
+    clear: both;
+}
+/*color schemes*/
+/*black*/
+.county.black .county-days-wrapper, .county.black .county-hours-wrapper, .county.black .county-minutes-wrapper, .county.black .county-seconds-wrapper
+{
+    background: #F05F40;
+    background: -moz-linear-gradient(top,  #F05F40 0%, #F05F40 40%, #F05F40 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F05F40), color-stop(40%,#F05F40), color-stop(100%,#F05F40));
+    background: -webkit-linear-gradient(top,  #F05F40 0%,#F05F40 40%,#F05F40 100%);
+    background: -o-linear-gradient(top,  #F05F40 0%,#F05F40 40%,#F05F40 100%);
+    background: -ms-linear-gradient(top,  #F05F40 0%,#F05F40 40%,#F05F40 100%);
+    background: linear-gradient(to bottom,  #F05F40 0%,#F05F40 40%,#F05F40 100%);
+    color: White;
+  }
+.county.black .county-label-days, .county.black .county-label-hours, .county.black .county-label-minutes, .county.black .county-label-seconds
+{
+    color: #ffffff;
+}
+.county.black span.separator-left
+{
+    border-left: solid 1px #fff;
+}
+.county.black span.separator-right
+{
+    border-right: solid 1px #fff;
+}
