@@ -33,7 +33,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 16.5px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -44,7 +44,8 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 80px 0;
+  padding-top: 50px;
+  padding-bottom: 50px
 }
 aside {
   padding: 50px 0;
@@ -385,14 +386,16 @@ body {
   padding-left: 3px;
   padding-right: 3px;
 }
-
 .icons a:hover {
   text-decoration: none;
   color: #eb3812;
 }
-
 .dev-icons i {
   font-size: 60px;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+.contact {
+  background-color: #2a3a3f;
+  color: #fff;
 }
