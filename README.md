@@ -1,6 +1,6 @@
 # jonathanly.github.io
 ## Project 1 - Portfolio Site
-Live and proudly hosted at [](jonathanly.github.io)
+Live and proudly hosted at [https://jonathanly.github.io/](https://jonathanly.github.io/)
 
 # Design Documentation
 ## Aim
