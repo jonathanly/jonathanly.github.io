@@ -39,7 +39,16 @@ Main inspiration came from this site by [Matt Farley](http://mattfarley.ca/)
 
 ## Building
 
-As mentioned earlier, time constraints led to the decision to start off with a template from [startbootstrap.com](https://startbootstrap.com/). I soon learnt that a template wasn't as easy as I imagined it to be. More on that later.
+As mentioned earlier, time constraints led to the decision to start off with a template from [startbootstrap.com](https://startbootstrap.com/). I soon learnt that a template wasn't as easy as I imagined it to be. More on that soon.
+
+# Difficulties faced
+
+A template was used to 'save time'. However, HTML/CSS concepts are still fairly new to me and the code in the template was overwhelming.
+Much time was needed to breakdown and understand the code written. More time was required before I could start confidently editing HTML and CSS elements for my intended design style. In the end, I am very happy with the results I produced. Interpreting someone else's code is a steep learning curve but I came out learning a whole bunch.
+
+Initial excitement during the design process had me wanting to include extra features and themes to website. Unfortunately, my technical skills barred me from being able to incorporate those features. 
+The lesson learnt? Keep it simple stupid (KISS principle)
+Build a solid foundation then slowly build on top of it.
 
 # Tools used
 - HTML
