@@ -46,7 +46,7 @@ As mentioned earlier, time constraints led to the decision to start off with a t
 A template was used to 'save time'. However, HTML/CSS concepts are still fairly new to me and the code in the template was overwhelming.
 Much time was needed to breakdown and understand the code written. More time was required before I could start confidently editing HTML and CSS elements for my intended design style. In the end, I am very happy with the results I produced. Interpreting someone else's code is a steep learning curve but I came out learning a whole bunch.
 
-The second issue I ran into was integrating a third-party open source countdown timer into my code. I haven't dabbled too much into javascript code, which made implemenation a little difficult. The pre-defined CSS styling included a lot of '<!important>'
+The second issue I ran into was integrating a third-party open source countdown timer into my code. I haven't dabbled too much into javascript code, which made implementation quite difficult. The pre-defined CSS styling included a lot of `!important` statements, which was quite disruptive when attempting to design responsiveness for smaller viewports. 
 
 Initial excitement during the design process had me wanting to include extra features and themes to website. Unfortunately, my technical skills barred me from being able to incorporate those features. 
 The lesson learnt? Keep it simple stupid (KISS principle)
