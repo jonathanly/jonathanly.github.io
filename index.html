@@ -31,17 +31,17 @@
         </a>
       </div>
 
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a class="page-scroll" href="#about">About Me</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#portfolio">Projects</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="page-scroll" href="#about">About Me</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#portfolio">Projects</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Contact</a>
+        </li>
+      </ul>
 
     </div>
   </nav>
@@ -51,8 +51,9 @@
       <div class="header-content-inner">
         <h1 id="homeHeading">Jonathan Ly</h1>
         <hr>
-        <p>Budding Junior Full Stack Developer
-          <br>CoderFactory Academy Student</p>
+        <p>Budding Junior Full Stack Developer</p>
+        <br>
+        <p>CoderFactory Academy Student</p>
       </div>
     </div>
   </header>
@@ -88,15 +89,10 @@
   <section class="bg-primary">
     <div class="container">
       <div class"row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="col-lg-8 col-md-8 col-xs-12 col-lg-offset-2 col-md-offset-2 text-center">
           <div id="count-down"></div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">What is this?!</a>
-        </div>
-      </div> -->
     </div>
   </section>
 
@@ -117,14 +113,42 @@
               By the end of my bootcamp journey, I will have developed job ready skills in the following languages and frameworks:
             </p>
             <div class="dev-icons">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
-              <i class="devicon-ruby-plain-wordmark colored"></i>
-              <i class="devicon-rails-plain-wordmark colored"></i>
-              <i class="devicon-javascript-plain colored"></i>
-              <i class="devicon-mongodb-plain-wordmark colored"></i>
-              <i class="devicon-angularjs-plain colored"></i>
-              <i class="devicon-nodejs-plain colored"></i>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-xs-6 col-lg-offset-2 col-md-offset-2">
+                  <i class="devicon-html5-plain-wordmark colored"></i>
+                  <p>HTML5</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-6">
+                  <i class="devicon-css3-plain-wordmark colored"></i>
+                  <p>CSS3</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-6">
+                  <i class="devicon-ruby-plain-wordmark colored"></i>
+                  <p>Ruby</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-6">
+                  <i class="devicon-rails-plain-wordmark colored"></i>
+                  <p>Rails</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-xs-6 col-lg-offset-2 col-md-offset-2">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <p>Javascript</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-6">
+                  <i class="devicon-mongodb-plain-wordmark colored"></i>
+                  <p>MongoDB</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-6">
+                  <i class="devicon-angularjs-plain colored"></i>
+                  <p>AngularJS</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-6">
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <p>NodeJS</p>
+                </div>
+              </div>
             </div>
             <br>
             <p>And more...</p>
@@ -218,15 +242,18 @@
   <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script src="js/county.js" type="text/javascript"></script>
+
 
   <!-- Theme JavaScript -->
   <script src="js/creative.js"></script>
-  <script type="text/javascript">
+
+   <!-- Countdown Timer Plugin -->
+   <script src="js/county.js" type="text/javascript"></script>
+   <script type="text/javascript">
         $(document).ready(function () {
             $('#count-down').county({ endDateTime: new Date('2017/03/03 18:30:00'), reflection: false, animation: 'scroll', theme: 'black' });
         });
-    </script>
+  </script>
 </body>
 
 </html>
