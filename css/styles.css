@@ -391,9 +391,14 @@ body {
   color: #eb3812;
 }
 .dev-icons i {
+  color: #000;
   font-size: 60px;
   padding-left: 2.5px;
   padding-right: 2.5px;
+}
+.dev-icons p {
+  padding-top: 10px;
+  text-align: center;
 }
 .contact {
   background-color: #2a3a3f;
