@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://jonathanly.github.co/sitemap.xml
